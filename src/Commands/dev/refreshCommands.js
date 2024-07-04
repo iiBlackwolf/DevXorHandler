@@ -6,7 +6,7 @@ const { ApplicationCommandOptionType, Events } = require("discord.js");
  * @type {import("@utils/types/baseCommand")}
  */
 module.exports = {
-  name: "refrish",
+  name: "refresh",
   description: "To setup logs guild Events",
   category: "OWNER",
   botPermissions: ["ManageChannels", "ViewAuditLog"],
